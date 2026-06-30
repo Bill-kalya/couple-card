@@ -1,0 +1,368 @@
+{
+  "categories": {
+    "problem_solving": {
+      "label": "🧩 Problem Solving",
+      "color": "#FADCE3",
+      "glow": "#FFB6CC",
+      "cards": [
+        {
+          "id": "ps1",
+          "question": "Describe a recent conflict we had. What did you genuinely need that you didn't ask for out loud?",
+          "depth": "deep",
+          "prompt": "Take your time. Be honest."
+        },
+        {
+          "id": "ps2",
+          "question": "What's one thing I do when we disagree that makes you feel unheard? How could I do it differently?",
+          "depth": "medium",
+          "prompt": "Be specific, not critical."
+        },
+        {
+          "id": "ps3",
+          "question": "If we had a referee for our arguments, what rule would they say we break most often?",
+          "depth": "light",
+          "prompt": "Have some fun with this one."
+        },
+        {
+          "id": "ps4",
+          "question": "What's one problem between us you've been afraid to bring up? Why does it feel scary?",
+          "depth": "deep",
+          "prompt": "The listener must not respond — just breathe and receive."
+        },
+        {
+          "id": "ps5",
+          "question": "When we're in the middle of a fight, what's one thing your partner could say that would instantly calm you down?",
+          "depth": "medium",
+          "prompt": "This is your partner's cheat code. Share it."
+        },
+        {
+          "id": "ps6",
+          "question": "What compromise have you made in our relationship that secretly still bothers you?",
+          "depth": "deep",
+          "prompt": "No judgment. This is a safe space."
+        },
+        {
+          "id": "ps7",
+          "question": "How do you prefer to resolve conflict — immediate talk, time apart first, or written notes? Does your partner know this?",
+          "depth": "medium",
+          "prompt": "Compare your styles."
+        },
+        {
+          "id": "ps8",
+          "question": "Name one thing we've already solved together that you're proud of. What made it work?",
+          "depth": "light",
+          "prompt": "Celebrate your wins."
+        },
+        {
+          "id": "ps9",
+          "question": "What's a small disagreement we keep having that isn't really about what we argue over?",
+          "depth": "deep",
+          "prompt": "Look beneath the surface."
+        },
+        {
+          "id": "ps10",
+          "question": "When do you feel like I stop listening and start trying to win?",
+          "depth": "medium",
+          "prompt": "Describe the moment."
+        },
+        {
+          "id": "ps11",
+          "question": "Do you think we apologize well? Why or why not?",
+          "depth": "medium",
+          "prompt": "Think about our last apology."
+        },
+        {
+          "id": "ps12",
+          "question": "What's one argument we've had more than three times?",
+          "depth": "light",
+          "prompt": "Why does it keep coming back?"
+        },
+        {
+          "id": "ps13",
+          "question": "What makes you shut down during conflict?",
+          "depth": "deep",
+          "prompt": "Share what happens internally."
+        },
+        {
+          "id": "ps14",
+          "question": "What's one habit I have that creates unnecessary tension?",
+          "depth": "medium",
+          "prompt": "Focus on the behavior, not the person."
+        },
+        {
+          "id": "ps15",
+          "question": "Have you ever felt like giving up during one of our fights?",
+          "depth": "deep",
+          "prompt": "Be honest."
+        },
+        {
+          "id": "ps16",
+          "question": "What helps you feel safe enough to admit you're wrong?",
+          "depth": "deep",
+          "prompt": "Think about emotional safety."
+        },
+        {
+          "id": "ps17",
+          "question": "If we could erase one recurring issue forever, what would you choose?",
+          "depth": "medium",
+          "prompt": "Why that one?"
+        },
+        {
+          "id": "ps18",
+          "question": "Do you think either of us avoids difficult conversations? Who, and why?",
+          "depth": "deep",
+          "prompt": "Kind honesty only."
+        },
+        {
+          "id": "ps19",
+          "question": "What's something I misunderstand about your point of view?",
+          "depth": "medium",
+          "prompt": "Help me understand."
+        },
+        {
+          "id": "ps20",
+          "question": "What's your biggest relationship frustration right now?",
+          "depth": "deep",
+          "prompt": "No fixing—just listening."
+        },
+        {
+          "id": "ps21",
+          "question": "When was the last time you felt completely understood by me?",
+          "depth": "medium",
+          "prompt": "Describe that moment."
+        },
+        {
+          "id": "ps22",
+          "question": "What's one fight that still hurts when you think about it?",
+          "depth": "deep",
+          "prompt": "What made it stay with you?"
+        },
+        {
+          "id": "ps23",
+          "question": "Do we solve problems as a team, or does it sometimes feel like me versus you?",
+          "depth": "deep",
+          "prompt": "Be specific."
+        },
+        {
+          "id": "ps24",
+          "question": "What's one thing you wish I'd stop saying during arguments?",
+          "depth": "medium",
+          "prompt": "Words matter."
+        },
+        {
+          "id": "ps25",
+          "question": "If our relationship had a customer support ticket, what issue would still be marked 'Open'?",
+          "depth": "light",
+          "prompt": "Have fun with it."
+        },
+        {
+          "id": "ps26",
+          "question": "What's something we handle really well as a couple?",
+          "depth": "light",
+          "prompt": "Celebrate yourselves."
+        },
+        {
+          "id": "ps27",
+          "question": "What conflict are we avoiding because life has been busy?",
+          "depth": "deep",
+          "prompt": "Avoidance doesn't erase problems."
+        },
+        {
+          "id": "ps28",
+          "question": "How can I make it easier for you to bring up difficult topics?",
+          "depth": "medium",
+          "prompt": "Think practically."
+        },
+        {
+          "id": "ps29",
+          "question": "Have I ever made you feel like your feelings were 'too much'?",
+          "depth": "deep",
+          "prompt": "Tell the story."
+        },
+        {
+          "id": "ps30",
+          "question": "What's one promise we've made each other that we've quietly stopped keeping?",
+          "depth": "deep",
+          "prompt": "Reflect honestly."
+        },
+        {
+          "id": "ps31",
+          "question": "If we had a relationship reset button, what would you change first?",
+          "depth": "medium",
+          "prompt": "Dream together."
+        },
+        {
+          "id": "ps32",
+          "question": "What lesson do you think our relationship has taught you about love?",
+          "depth": "deep",
+          "prompt": "End on wisdom."
+        }
+      ]
+    },
+    "anger_management": {
+      "label": "🔥 Anger & Emotions",
+      "color": "#FFD7C2",
+      "glow": "#FF9E7A",
+      "cards": [
+        {
+          "id": "am1",
+          "question": "What physical sensation do you feel in your body right before you lose your temper with your partner?",
+          "depth": "deep",
+          "prompt": "Awareness is the first step."
+        },
+        {
+          "id": "am2",
+          "question": "On a scale of 1–10, how quickly do you escalate when you feel disrespected? What triggers the jump?",
+          "depth": "medium",
+          "prompt": "Be real with yourself."
+        },
+        {
+          "id": "am3",
+          "question": "Think of your last big blowup. What were you actually feeling underneath the anger?",
+          "depth": "deep",
+          "prompt": "Anger is usually a second emotion."
+        },
+        {
+          "id": "am4",
+          "question": "What does your partner do (even unintentionally) that makes you feel disrespected or dismissed?",
+          "depth": "medium",
+          "prompt": "Listener: hold space, don't defend yet."
+        },
+        {
+          "id": "am5",
+          "question": "What did anger look like in your household growing up? How has that shaped how you fight today?",
+          "depth": "deep",
+          "prompt": "Your past is in the room with you."
+        },
+        {
+          "id": "am6",
+          "question": "What's one thing you've said in anger that you truly regret? Have you fully apologized for it?",
+          "depth": "deep",
+          "prompt": "This is a moment for healing."
+        },
+        {
+          "id": "am7",
+          "question": "What's your cooldown ritual — what actually helps you come back to calm after you're heated?",
+          "depth": "light",
+          "prompt": "Does your partner know this? Share it."
+        },
+        {
+          "id": "am8",
+          "question": "If your anger had a name and a personality, what would it be like? Introduce us.",
+          "depth": "light",
+          "prompt": "Get creative — and a little vulnerable."
+        }
+      ]
+    },
+    "intimacy": {
+      "label": "💫 Intimacy & Connection",
+      "color": "#E85E9D",
+      "glow": "#FFB6CC",
+      "cards": [
+        {
+          "id": "in1",
+          "question": "When do you feel most emotionally close to your partner? What does that moment usually look like?",
+          "depth": "medium",
+          "prompt": "Think of a specific memory."
+        },
+        {
+          "id": "in2",
+          "question": "What's something your partner does that makes you feel deeply seen — even if they don't realize they're doing it?",
+          "depth": "deep",
+          "prompt": "This might be the most important thing you say today."
+        },
+        {
+          "id": "in3",
+          "question": "How has your desire for closeness changed since we first got together? What's different now?",
+          "depth": "deep",
+          "prompt": "Be honest, not nostalgic."
+        },
+        {
+          "id": "in4",
+          "question": "What's one small act of touch or affection that means more to you than it might seem?",
+          "depth": "medium",
+          "prompt": "The little things carry big weight."
+        },
+        {
+          "id": "in5",
+          "question": "Is there a version of intimacy between us you've wanted but never asked for? What's held you back?",
+          "depth": "deep",
+          "prompt": "Courage required. Judgment suspended."
+        },
+        {
+          "id": "in6",
+          "question": "Describe your ideal evening of reconnection with your partner — from dinner to bedtime.",
+          "depth": "light",
+          "prompt": "Be specific about what recharges you."
+        },
+        {
+          "id": "in7",
+          "question": "Do you feel like we make enough time for joy and play together? What's one thing you miss?",
+          "depth": "medium",
+          "prompt": "Playfulness is intimacy too."
+        },
+        {
+          "id": "in8",
+          "question": "What's the most loving thing your partner has ever done for you? Have you told them how much it meant?",
+          "depth": "light",
+          "prompt": "Say it again, right now."
+        }
+      ]
+    },
+    "sexual": {
+      "label": "🌹 Sexual Wellness",
+      "color": "#B51B6E",
+      "glow": "#E85E9D",
+      "cards": [
+        {
+          "id": "sx1",
+          "question": "What makes you feel most comfortable and safe being vulnerable with your partner physically?",
+          "depth": "medium",
+          "prompt": "Safety first, always."
+        },
+        {
+          "id": "sx2",
+          "question": "Is there something you've wanted to try or explore together but haven't brought up? What's the hesitation?",
+          "depth": "deep",
+          "prompt": "No pressure — this is just a conversation."
+        },
+        {
+          "id": "sx3",
+          "question": "How do you usually initiate intimacy? Does it feel natural, or do you sometimes wish it worked differently?",
+          "depth": "medium",
+          "prompt": "There's no wrong answer here."
+        },
+        {
+          "id": "sx4",
+          "question": "What's the difference between sex when you feel truly connected vs when you feel disconnected? Describe both.",
+          "depth": "deep",
+          "prompt": "Honesty here is a gift."
+        },
+        {
+          "id": "sx5",
+          "question": "When stress or conflict builds up, how does it affect your desire for closeness? Do you pull away or lean in?",
+          "depth": "medium",
+          "prompt": "Compare patterns openly."
+        },
+        {
+          "id": "sx6",
+          "question": "What's one thing your partner does that makes you feel genuinely desired and wanted?",
+          "depth": "light",
+          "prompt": "Tell them after you answer."
+        },
+        {
+          "id": "sx7",
+          "question": "Have you ever faked enthusiasm to avoid a conversation? What were you actually feeling?",
+          "depth": "deep",
+          "prompt": "This takes courage. The listener should receive it with grace."
+        },
+        {
+          "id": "sx8",
+          "question": "What boundaries do you have that you're not sure your partner fully understands?",
+          "depth": "deep",
+          "prompt": "Boundaries are love, not rejection."
+        }
+      ]
+    }
+  }
+}

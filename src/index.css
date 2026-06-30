@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* Love palette — Pink + Sky Blue */
+  /* Pink family — Blush Cream → Rose Petal → Flamingo → Romantic Rose → Deep Fuchsia */
+  --pink-0: #FFF8F9; /* Blush Cream (softest almost-white pink) */
+  --pink-1: #FADCE3; /* Rose Petal */
+  --pink-2: #FFB6CC; /* Flamingo */
+  --pink-3: #E85E9D; /* Romantic Rose */
+  --pink-4: #B51B6E; /* Deep Fuchsia */
+
+  /* Warm bridge — Peach Glow → Sunrise Coral → Golden Blush */
+  --warm-1: #FFD7C2; /* Peach Glow */
+  --warm-2: #FF9E7A; /* Sunrise Coral */
+  --warm-3: #F0C87A; /* Golden Blush */
+
+  /* Sky blue family — Morning Mist → Baby Sky → Cerulean Kiss → Dreamy Blue → Twilight Teal */
+  --sky-0: #E9FBFF; /* Morning Mist */
+  --sky-1: #CFEAFF; /* Baby Sky */
+  --sky-2: #7CBDF8; /* Cerulean Kiss */
+  --sky-3: #3B8EDC; /* Dreamy Blue */
+  --sky-4: #1C6F8E; /* Twilight Teal */
+
+  /* Neutrals */
+  --neutral-bg: #FFF8F9; /* Warm White */
+  --neutral-surface: #F7EFF3; /* Dusty Mauve-ish soft surface */
+  --neutral-surface2: #F3E6EE;
+  --neutral-mauve: #C9A7B8; /* Dusty Mauve */
+
+  --text: #4A1433; /* Deep Plum (light mode body text) */
+  --text-soft: #7A4A63; /* Muted Berry-ish */
+  --muted-berry: #6E2E4E;
+
+  /* Semantic tokens (used by existing CSS) */
+  --bg: var(--neutral-bg);
+  --surface: var(--neutral-surface);
+  --surface2: var(--neutral-surface2);
+  --text: var(--text);
+  --text-soft: var(--text-soft);
+
+  --gold: var(--warm-3);
+  --gold-light: #FAD9A6;
+
+  --shadow-dark: rgba(181, 27, 110, 0.18);
+  --shadow-light: rgba(28, 111, 142, 0.14);
+
+  /* Additional semantic accents for buttons/links */
+  --accent: var(--pink-3);
+  --accent-bg: rgba(232, 94, 157, 0.12);
+  --accent-border: rgba(232, 94, 157, 0.3);
+
+  --border: rgba(122, 74, 99, 0.18);
+}
+
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Premium hover for any button using .btn-stretch */
+.btn-stretch:hover {
+  transform: scale(1.03);
+}
+
+/* Intentionally NOT applying a global button hover transform.
+   Many components (notably the 3D card) already handle their own transforms. */
+
+
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, var(--warm-2), var(--gold)); border-radius: 2px; }
+
