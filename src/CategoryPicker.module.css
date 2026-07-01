@@ -83,3 +83,101 @@
   border-radius: inherit;
   pointer-events: none;
 }
+
+.locked {
+  opacity: 0.5;
+  cursor: not-allowed;
+  filter: grayscale(0.6);
+}
+
+.locked:hover {
+  transform: none;
+  box-shadow:
+    10px 10px 26px rgba(122, 74, 99, 0.12),
+    -10px -10px 26px rgba(28, 111, 142, 0.08);
+  border-color: rgba(122, 74, 99, 0.1);
+}
+
+.warningIcon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 18px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.confirming {
+  transform: scale(1.05);
+  border-color: color-mix(in srgb, var(--c) 70%, transparent);
+  box-shadow:
+    10px 10px 26px rgba(122, 74, 99, 0.12),
+    -10px -10px 26px rgba(28, 111, 142, 0.08),
+    0 0 30px color-mix(in srgb, var(--g) 50%, transparent);
+}
+
+.confirmEmoji {
+  font-size: 48px;
+  line-height: 1;
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.confirmText {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--c);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.confirmBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.confirmBtn {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, var(--c), var(--g));
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--g) 30%, transparent);
+}
+
+.confirmBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--g) 40%, transparent);
+}
+
+.cancelBtn {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(122, 74, 99, 0.2);
+  background: var(--surface);
+  color: var(--text-soft);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cancelBtn:hover {
+  background: rgba(122, 74, 99, 0.05);
+  border-color: rgba(122, 74, 99, 0.3);
+}

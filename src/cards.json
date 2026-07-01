@@ -363,6 +363,194 @@
           "prompt": "Boundaries are love, not rejection."
         }
       ]
+    },
+    "level_two": {
+      "label": "⚠️ Level Two: No Filters",
+      "color": "#4A0E3F",
+      "glow": "#A61D5C",
+      "description": "Only continue if you're both ready for complete honesty.",
+      "cards": [
+        {
+          "id": "l2_1",
+          "question": "What's something about me you've never said because you were afraid it would hurt me?",
+          "depth": "extreme",
+          "prompt": "Be truthful, but be kind."
+        },
+        {
+          "id": "l2_2",
+          "question": "Have you ever questioned whether we're truly compatible? What made you wonder?",
+          "depth": "extreme",
+          "prompt": "Answer honestly."
+        },
+        {
+          "id": "l2_3",
+          "question": "What's the biggest insecurity you have about our relationship?",
+          "depth": "deep",
+          "prompt": "Explain where it comes from."
+        },
+        {
+          "id": "l2_4",
+          "question": "What's something I do that slowly pushes you away without me realizing it?",
+          "depth": "extreme",
+          "prompt": "Don't hold back."
+        },
+        {
+          "id": "l2_5",
+          "question": "Have you ever stayed quiet just to keep the peace even though you were deeply hurt?",
+          "depth": "deep",
+          "prompt": "Describe the moment."
+        },
+        {
+          "id": "l2_6",
+          "question": "What's one lie you've told me that still makes you uncomfortable?",
+          "depth": "extreme",
+          "prompt": "Small or big—it counts."
+        },
+        {
+          "id": "l2_7",
+          "question": "Do you completely trust me? If not, what's missing?",
+          "depth": "deep",
+          "prompt": "Trust is earned through honesty."
+        },
+        {
+          "id": "l2_8",
+          "question": "What's the hardest thing you've forgiven me for?",
+          "depth": "deep",
+          "prompt": "Tell me why you stayed."
+        },
+        {
+          "id": "l2_9",
+          "question": "Have I ever made you feel lonely while we were together?",
+          "depth": "deep",
+          "prompt": "Describe that feeling."
+        },
+        {
+          "id": "l2_10",
+          "question": "If you could change one thing about my personality, what would it be?",
+          "depth": "medium",
+          "prompt": "Focus on growth."
+        },
+        {
+          "id": "l2_11",
+          "question": "What's something you've forgiven me for but haven't completely healed from?",
+          "depth": "extreme",
+          "prompt": "Healing takes time."
+        },
+        {
+          "id": "l2_12",
+          "question": "Have you ever compared me to someone else? In what way?",
+          "depth": "deep",
+          "prompt": "Be respectful."
+        },
+        {
+          "id": "l2_13",
+          "question": "What's the biggest fear you have about our future together?",
+          "depth": "deep",
+          "prompt": "Don't minimize it."
+        },
+        {
+          "id": "l2_14",
+          "question": "What's one thing you've sacrificed for this relationship that I may not fully appreciate?",
+          "depth": "deep",
+          "prompt": "Help your partner understand."
+        },
+        {
+          "id": "l2_15",
+          "question": "When was the closest you've ever come to walking away from this relationship?",
+          "depth": "extreme",
+          "prompt": "Share what changed your mind."
+        },
+        {
+          "id": "l2_16",
+          "question": "What's one need you have that I consistently fail to meet?",
+          "depth": "deep",
+          "prompt": "Offer examples."
+        },
+        {
+          "id": "l2_17",
+          "question": "What's something you've never forgiven yourself for in this relationship?",
+          "depth": "deep",
+          "prompt": "Be vulnerable."
+        },
+        {
+          "id": "l2_18",
+          "question": "Do you ever feel like you're settling? Why or why not?",
+          "depth": "extreme",
+          "prompt": "This requires complete honesty."
+        },
+        {
+          "id": "l2_19",
+          "question": "What's something you wish I noticed without you having to ask?",
+          "depth": "medium",
+          "prompt": "Think about everyday life."
+        },
+        {
+          "id": "l2_20",
+          "question": "Have I ever embarrassed you? Tell me about it.",
+          "depth": "medium",
+          "prompt": "Describe the situation."
+        },
+        {
+          "id": "l2_21",
+          "question": "What's the biggest misunderstanding between us that still hasn't been resolved?",
+          "depth": "deep",
+          "prompt": "Talk through it."
+        },
+        {
+          "id": "l2_22",
+          "question": "If we broke up tomorrow, what would you miss the most—and what would you feel relieved about?",
+          "depth": "extreme",
+          "prompt": "Answer both parts."
+        },
+        {
+          "id": "l2_23",
+          "question": "What's one question you've always wanted to ask me but never had the courage to?",
+          "depth": "deep",
+          "prompt": "Now's the time."
+        },
+        {
+          "id": "l2_24",
+          "question": "What's something you've been pretending doesn't bother you?",
+          "depth": "deep",
+          "prompt": "No pretending."
+        },
+        {
+          "id": "l2_25",
+          "question": "When do you feel least loved by me?",
+          "depth": "extreme",
+          "prompt": "Be specific."
+        },
+        {
+          "id": "l2_26",
+          "question": "What's one part of yourself you feel you have to hide around me?",
+          "depth": "extreme",
+          "prompt": "Explain why."
+        },
+        {
+          "id": "l2_27",
+          "question": "What's one thing you've never fully believed when I've said it to you?",
+          "depth": "deep",
+          "prompt": "For example, a compliment or promise."
+        },
+        {
+          "id": "l2_28",
+          "question": "Have I ever made you doubt your worth? When?",
+          "depth": "extreme",
+          "prompt": "This is about understanding, not blame."
+        },
+        {
+          "id": "l2_29",
+          "question": "If you had one uninterrupted hour to tell me everything you've been holding in, what's the first thing you'd say?",
+          "depth": "extreme",
+          "prompt": "Start there."
+        },
+        {
+          "id": "l2_30",
+          "question": "After everything we've shared today, what's one promise you'd like us both to make for the future?",
+          "depth": "deep",
+          "prompt": "End with hope."
+        }
+      ]
     }
   }
 }

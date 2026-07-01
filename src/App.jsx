@@ -45,6 +45,7 @@ export default function App() {
   const handleNext = () => {
     setScores(prev => ({ ...prev, [currentPlayerKey]: prev[currentPlayerKey] + 1 }));
     setHistory(prev => [...prev, { player: currentPlayerName, cat: selectedCat, card: deck[cardIndex] }]);
+    
     const nextPlayer = currentPlayer === 1 ? 2 : 1;
     setCurrentPlayer(nextPlayer);
     setRound(r => r + 1);
@@ -152,7 +153,10 @@ export default function App() {
             <p className={styles.turnLabel}>
               <span className={styles.turnName}>{currentPlayerName}</span> — pick a category
             </p>
-            <CategoryPicker categories={categories} onSelect={handleCategorySelect} />
+            <CategoryPicker 
+              categories={categories} 
+              onSelect={handleCategorySelect} 
+            />
           </div>
         )}
 

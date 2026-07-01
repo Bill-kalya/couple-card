@@ -24,8 +24,9 @@ export default function Card3D({ card, category, playerName, onNext, onBack }) {
     light: '#22c55e',
     medium: '#f59e0b',
     deep: '#ef4444',
+    extreme: '#dc2626',
   };
-  const depthLabel = { light: 'Light', medium: 'Medium', deep: 'Deep' };
+  const depthLabel = { light: 'Light', medium: 'Medium', deep: 'Deep', extreme: 'Extreme' };
 
   return (
     <div className={styles.scene}>
